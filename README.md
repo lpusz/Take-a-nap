@@ -10,6 +10,10 @@ App appearance
 
 Application has got only very basic GUI, but in my opinion it's enough neat for comfortable use. If you want, just download code and do whatever you want with it. 
 
+Warning
+-------------
+No unit tests content!
+
 License
 -------------
 Application is under Apache License 2.0.
