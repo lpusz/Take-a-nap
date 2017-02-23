@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="summary"
+        android:title="@string/notifications">
+        <RingtonePreference
+            android:defaultValue="content://settings/system/alarm_alert"
+            android:key="ringtone_sync"
+            android:ringtoneType="alarm|ringtone"
+            android:showDefault="true"
+            android:showSilent="false"
+            android:summary="@string/change_alarm_rigntone_desc"
+            android:title="@string/alarmRingtone" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notification_sync"
+            android:summary="@string/notificationsMinimalized"
+            android:title="@string/notificationsSmall" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences">
+        <ListPreference
+            android:defaultValue="@string/defaultValue"
+            android:entries="@array/alarm_disable_patterns"
+            android:entryValues="@array/alarm_disable_patterns"
+            android:key="pattern_sync"
+            android:summary="@string/alarmDisablingPattern"
+            android:title="@string/pattern" />
+        <SeekBarPreference
+            android:defaultValue="6"
+            android:max="15"
+            android:key="volume_sync"
+            android:textSize="5pt"
+            android:title="@string/ringtone_volume" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/others">
+        <Preference android:title="@string/about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.wordpress.antycode.nappster"
+                android:targetClass="com.wordpress.antycode.nappster.AboutActivity" />
+        </Preference>
+
+        <Preference
+            android:title="@string/contact"
+            android:summary="@string/contact_desc">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:pusz.lukasz@gmail.com">
+                <extra
+                    android:name="android.intent.extra.SUBJECT"
+                    android:value="Take a nap: Your e-mail subject"/>
+                <extra
+                    android:name="android.intent.extra.TEXT"
+                    android:value="Description of Your problem:"/>
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

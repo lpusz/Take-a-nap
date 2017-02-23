@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Take a nap</string>
+    <string name="main_nap_name_PL">26 minut</string>
+    <string name="ustawienia_menuitem">Ustawienia</string>
+    <string name="pauza">PAUZA</string>
+    <string name="kontynuuj">KONTYNUUJ</string>
+    <string name="resetuj">RESETUJ</string>
+    <string name="zatrzymano">ZATRZYMANO</string>
+    <string name="zatrzymaj">ZATRZYMAJ</string>
+    <string name="extend_nap">Wydłuż drzemkę:</string>
+    <string name="plus_5_minut">+5 min</string>
+    <string name="plus_10_minut">+10 min</string>
+    <string name="plus_15_minut">+15 min</string>
+    <string name="rozpocznij_nowa_drzemke">Rozpocznij nową drzemkę:</string>
+    <string name="wcisnij_ponownie_powrot">Wciśnij ponownie, aby wyjść</string>
+    <string name="czas_uplynal">Czas upłynął</string>
+    <string name="prosze_wylaczyc_alarm">Wyłącz alarm, aby zamknąć</string>
+    <string name="drzemka_w_toku">Pozostały czas drzemki</string>
+    <string name="instrukcja_wylaczenia_1">Wykonaj pełny obrót, aby wyłączyć</string>
+    <string name="spauzowano">Spauzowano</string>
+    <string name="osiagnieto_max_drzemki">Osiągnięto maksymalny czas drzemki!</string>
+    <string name="nie_mozna_przedluzyc_drzemki">Rozpocznij drzemkę, aby przedłużyć!</string>
+    <string name="informacje_menuitem">Informacje</string>
+    <string name="pozostaly_czas">Pozostało: </string>
+    <string name="solve_the_equation">Rozwiąż równanie</string>
+
+    <string-array name="naps_array_left">
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>20 minut</item>
+    </string-array>
+
+    <string-array name="naps_array_right">
+        <item>45 minut</item>
+        <item>60 minut</item>
+        <item>90 minut</item>
+    </string-array>
+
+    <string name="solve">Rozwiąż:</string>
+
+    <string-array name="alarm_disable_patterns">
+        <item>Domyślny</item>
+        <item>Równanie</item>
+    </string-array>
+
+    <string name="notifications">POWIADOMIENIA</string>
+    <string name="alarmRingtone">Dźwięk alarmu</string>
+    <string name="notificationsMinimalized">Używaj powiadomienia gdy zminimalizowano</string>
+    <string name="notificationsSmall">Powiadomienia</string>
+    <string name="others">INNE</string>
+    <string name="about">O aplikacji i autorze</string>
+    <string name="help">Pomoc</string>
+    <string name="preferences">PREFERENCJE</string>
+    <string name="pattern">Rodzaj blokady</string>
+    <string name="alarmDisablingPattern">Wybierz sposób odblokowania</string>
+    <string name="defaultValue">Domyślny</string>
+    <string name="change_alarm_rigntone_desc">Wybierz dźwięk alarmu</string>
+    <string name="my_naps">Moje drzemki</string>
+    <string name="custom_nap">Moja drzemka</string>
+    <string name="start">Start</string>
+    <string name="start_nap">Rozpocznij drzemkę</string>
+    <string name="select_nap_time">Wybierz czas drzemki</string>
+    <string name="start_new_nap">Szybka drzemka</string>
+    <string name="cancel">Anuluj</string>
+    <string name="default_ringtone">Domyślny dzwonek</string>
+    <string name="ringtone_volume">Głośność alarmu</string>
+    <string name="set_ringtone_volume">Ustaw głośność</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="contact">Kontakt</string>
+    <string name="contact_desc">Skontaktuj się z autorem</string>
+    <string name="author">Autor</string>
+    <string name="ukasz_pusz_2016">Łukasz Pusz\n@2016</string>
+    <string name="thanks_to">Podziękowania</string>
+    <string name="all_rights_reserved">Wszelkie prawa zastrzeżone.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4110399422467076/6074920940</string>
+</resources>

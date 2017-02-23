@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004189531515",
+    "firebase_url": "https://take-a-nap.firebaseio.com",
+    "project_id": "take-a-nap",
+    "storage_bucket": "take-a-nap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004189531515:android:d6d569e05008c6e0",
+        "android_client_info": {
+          "package_name": "com.wordpress.antycode.nappster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004189531515-j5foav458e288f5agsiop51rrscd2g0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv34BKjNbvwjNsoMmJY5Du9CEN22BKsRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

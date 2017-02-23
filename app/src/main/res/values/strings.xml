@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Take a nap</string>
+    <string name="main_nap_name_PL">26 minutes</string>
+    <string name="ustawienia_menuitem">Settings</string>
+    <string name="pauza">PAUSE</string>
+    <string name="kontynuuj">CONTINUE</string>
+    <string name="resetuj">RESET</string>
+    <string name="zatrzymano">STOPPED</string>
+    <string name="zatrzymaj">STOP</string>
+    <string name="extend_nap">Extend nap:</string>
+    <string name="plus_5_minut">+5 min</string>
+    <string name="plus_10_minut">+10 min</string>
+    <string name="plus_15_minut">+15 min</string>
+    <string name="rozpocznij_nowa_drzemke">Start new nap:</string>
+    <string name="wcisnij_ponownie_powrot">Press again to leave</string>
+    <string name="czas_uplynal">Nap is over</string>
+    <string name="prosze_wylaczyc_alarm">Turn off alarm to leave</string>
+    <string name="drzemka_w_toku">Nap time left</string>
+    <string name="instrukcja_wylaczenia_1">Perform full circulation to turn off</string>
+    <string name="spauzowano">Paused</string>
+    <string name="osiagnieto_max_drzemki">Max nap time reached!</string>
+    <string name="nie_mozna_przedluzyc_drzemki">Start a nap to extend!</string>
+    <string name="informacje_menuitem">Informations</string>
+    <string name="pozostaly_czas">Time left: </string>
+    <string name="solve_the_equation">Solve the equation</string>
+
+    <string-array name="naps_array_left">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+    </string-array>
+
+    <string-array name="naps_array_right">
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+        <item>90 minutes</item>
+    </string-array>
+    <string name="solve">Solve:</string>
+
+    <string-array name="alarm_disable_patterns">
+        <item>Default</item>
+        <item>Equation</item>
+    </string-array>
+
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="alarmRingtone">Alarm ringtone</string>
+    <string name="notificationsMinimalized">Use notification when minimalized</string>
+    <string name="notificationsSmall">Notifications</string>
+    <string name="others">OTHER</string>
+    <string name="about">About app and author</string>
+    <string name="help">Help</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="pattern">Pattern</string>
+    <string name="alarmDisablingPattern">Set up alarm pattern</string>
+    <string name="defaultValue">Default</string>
+    <string name="change_alarm_rigntone_desc">Change the alarm ringtone</string>
+    <string name="my_naps">My custom naps</string>
+    <string name="custom_nap">Custom nap</string>
+    <string name="title_activity_my_naps">MyNapsActivity</string>
+    <string name="title_activity_fast_custom_nap">FastCustomNapActivity</string>
+    <string name="start">Start</string>
+    <string name="select_nap_time">Select nap time</string>
+    <string name="start_nap">Start a nap</string>
+    <string name="start_new_nap">Start new nap</string>
+    <string name="naps_history">Naps history</string>
+    <string name="cancel">Cancel</string>
+    <string name="default_ringtone">Default ringtone</string>
+    <string name="ringtone_volume">Ringtone volume</string>
+    <string name="set_ringtone_volume">Set the ringtone volume</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="contact">Contact</string>
+    <string name="contact_desc">Contact with an author</string>
+    <string name="author">Author</string>
+    <string name="ukasz_pusz_2016">Łukasz Pusz\n@2016</string>
+    <string name="thanks_to">Thanks to</string>
+    <string name="all_rights_reserved">All rights reserved.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4110399422467076/6074920940</string>
+</resources>

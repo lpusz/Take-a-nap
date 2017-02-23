@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wordpress.antycode.nappster.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_nap_button"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rect_bg_middle"
+        android:gravity="center"
+        android:onClick="startMainNap"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_alarm_white_36dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/main_nap_name_PL"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_nap_button"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/gridview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:columnWidth="125dp"
+            android:gravity="center"
+            android:numColumns="1"
+            android:paddingEnd="3dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="6dp" />
+
+        <GridView
+            android:id="@+id/gridview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:columnWidth="125dp"
+            android:gravity="center"
+            android:numColumns="1"
+            android:paddingStart="3dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="6dp" />
+    </LinearLayout>
+
+</RelativeLayout>
+

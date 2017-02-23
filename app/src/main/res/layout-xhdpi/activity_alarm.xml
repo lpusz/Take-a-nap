@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alarm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wordpress.antycode.nappster.AlarmActivity">
+
+    <TextView
+        android:id="@+id/time_ended_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/czas_uplynal"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/pulsing_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_ended_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:text="00:00"
+        android:textSize="40pt" />
+
+    <RelativeLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/pulsing_textview"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <ViewStub
+            android:id="@+id/layout_stub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inflatedId="@+id/interrupter_includer" />
+
+    </RelativeLayout>
+</RelativeLayout>

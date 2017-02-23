@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wordpress.antycode.nappster">
+
+    <permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <compatible-screens>
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xxhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xxxhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xxhdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xxxhdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="xxhdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="xxxhdpi"
+            android:screenSize="xlarge" />
+    </compatible-screens>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nap_48dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:debuggable="false"
+        android:theme="@style/DefaultAppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TimerActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlarmActivity"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
