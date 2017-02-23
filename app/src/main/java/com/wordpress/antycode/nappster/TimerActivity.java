@@ -127,13 +127,6 @@ public class TimerActivity extends AppCompatActivity {
 
                 getSupportActionBar().setTitle(getString(R.string.pozostaly_czas) + " " + countDownTime);
 
-                Log.v("spec", "-------------------");
-                Log.v("progressTest", Long.toString(progress));
-                Log.v("napTimeInMillis", Long.toString(napTimeInMillis));
-                Log.v("GeneralNapTime = ", Long.toString(generalNapTime));
-                Log.v("MillisUntilFinished = ", Long.toString(millisUntilFinished));
-                Log.v("SavedTime", Long.toString(savedNapTime));
-
                 arcProgress.setProgress((int) progress);
                 if (paused) {
                     setNotificationTextAndNotify(countDownTime, 0);
@@ -197,8 +190,6 @@ public class TimerActivity extends AppCompatActivity {
     }
 
     private int calculateNapTime(String napName) {
-        //To jest zrobione w ten sposób, ponieważ na guzikach jest np.: "5 minut" i to ma za zadania
-        //wyciągnąć te inty z tego
         return Integer.parseInt(extractInteger(napName, 3));
     }
 
